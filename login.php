@@ -8,9 +8,22 @@
 </head>
 <body>
 
+	<div class="container col-3">
+		<!-- logo image -->
+		<img src="assets/img/logo.png" class="img-responsive">
+		<!-- end logo -->
+		<!-- login -->
+		<div class="login">
+			<form >
+				<input type="text" name="id" class="form-control" placeholder="نام کاربری">
+				<input type="password" name="password" class="form-control" placeholder="گذر واژه">
+				<button type="submit" class="btn btn-primary btn-lg btn-block">ورود</button>
+			</form>
+		</div>
 
-	<!-- Inja codato benevis -->
-	<!-- <h1></h1> -->
+		
+
+	</div>
 
 <div id="footer" class="bg-dark">
 		<div class="details col-12">

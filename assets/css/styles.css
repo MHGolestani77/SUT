@@ -168,6 +168,24 @@ div#main {
 
 }
 
+
+/*log in*/
+div.login{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    min-width: 300px;
+}
+div.login *{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
 /*Footer*/
 div#footer {
 	text-align: center;
