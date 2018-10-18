@@ -8,29 +8,18 @@
 	<link rel="stylesheet" href="assets/css/styles.css?<?php echo $ref; ?>">
 </head>
 <body class="login">
-
-	<!-- <div class="container">
-		<img src="assets/img/logo.png" class="img-responsive">
-		<div class="login">
-			<form >
-				<input type="text" name="id" class="form-control" placeholder="نام کاربری">
-				<input type="password" name="password" class="form-control" placeholder="گذر واژه">
-				<button type="submit" class="btn btn-primary btn-lg btn-block">ورود</button>
-			</form>
-		</div>
-	</div> -->
 	<div id="login" class="container">
 		<div class="row">
-			<div class="col-sm-4 col-md-4">
+			<div class="col-xl-4 col-lg-4 col-md-6 col-sm-10">
 				<img src="assets/img/logo.png" class="col-10">
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-sm-4 col-md-4">
+			<div class="col-xl-4 col-lg-4 col-md-6 col-sm-10">
 				<div class="login rounded">
 					<form action="">
 						<input type="text" name="id" class="form-control" placeholder="نام کاربری">
-						<input type="password" name="password" class="form-control" placeholder="گذر واژه">
+						<input type="password" name="password" class="form-control" placeholder="گذرواژه">
 						<button type="submit" class="btn btn-primary btn-lg btn-block">ورود</button>
 					</form>
 				</div>

@@ -129,49 +129,6 @@ div#header nav form div div a {
 	color: #343a40;
 }
 
-.nav-item {
-	text-shadow: 0px 0px 10px #000;
-}
-
-div.dropdown-menu a {
-	text-shadow: none;
-}
-
-.dropdown-menu {
-	text-align: right;
-}
-
-.navbar-dark .navbar-nav .nav-link {
-    color: rgb(179, 179, 179);
-}
-
-.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
-    color: rgba(255, 255, 255, 1);
-}
-
-.dropdown-toggle::before {
-    display: inline-block;
-    width: 0;
-    height: 0;
-    margin-left: .255em;
-    vertical-align: .255em;
-    content: "";
-    border-top: .3em solid;
-    border-right: .3em solid transparent;
-    border-bottom: 0;
-    border-left: .3em solid transparent;
-}
-
-.dropdown-toggle::after {
-    display: inline-block;
-    width: 0;
-    height: 0;
-    margin-left: .255em;
-    vertical-align: .255em;
-    content: "";
-    border: none;
-}
-
 /* Main */
 div#main {
 
@@ -216,4 +173,59 @@ div#footer p {
 	line-height: 40px;
 	color: #fff;
 	text-shadow: 0px 0px 10px #000;
+}
+
+/*Bootstrap*/
+.btn-primary {
+    color: #fff;
+    background-color: #009688;
+    border-color: #009688;
+}
+
+.btn-primary:hover {
+    background-color: #06867a;
+    border-color: #06867a;
+}
+
+.nav-item {
+    text-shadow: 0px 0px 10px #000;
+}
+
+div.dropdown-menu a {
+    text-shadow: none;
+}
+
+.dropdown-menu {
+    text-align: right;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(179, 179, 179);
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+.dropdown-toggle::before {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border: none;
 }
