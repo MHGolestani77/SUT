@@ -1,6 +1,6 @@
 	<div id="footer" class="bg-dark">
 		<div class="details col-12">
-			<p class="h6 my-2">بسیج دانشجویی دانشگاه صنعتی شاهرود</p>
+			<p class="h6 my-2 text-center">بسیج دانشجویی دانشگاه صنعتی شاهرود</p>
 		</div>
 	</div>
 

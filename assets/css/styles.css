@@ -86,6 +86,7 @@
 * {
 	font-family: IRANSans , IRANYekan;
 	direction: rtl;
+    text-align: right;
 	-webkit-transition: all 0.4s;
 	-o-transition: all 0.4s;
 	transition: all 0.4s;
@@ -93,6 +94,11 @@
 
 p , .h5 , .h6 {
 	line-height: 28px;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 
 body {
@@ -113,6 +119,16 @@ div#header {
 
 }
 
+div#header div.logo {
+    text-align: center;
+    /*background: linear-gradient(#343a40,#7c7d7d00) no-repeat, url(../img/1.jpg) fixed center center no-repeat;
+    background-size: cover;*/
+}
+
+div#header div.logo img {
+    display: inline-block;
+}
+
 div#header nav form img {
 	width: 40px;
 	height: 40px;
@@ -131,6 +147,112 @@ div#header nav form div div a {
 
 /* Main */
 div#main {
+    padding: 10px;
+    background: linear-gradient(#343a40,#7c7d7d00) no-repeat, url(../img/1.jpg) fixed center center no-repeat;
+    background-size: cover;
+    margin-bottom: 0;
+}
+div#main div.logo {
+    text-align: center;
+}
+div#main div.logo img {
+    display: inline-block;
+}
+div#main div.container {
+    border-radius: 10px;
+    background: #fff;
+}
+div#main div.container div.selectForm {
+    padding: 10px;
+}
+div#main div.container div.selectForm p {
+    margin: 20px;
+}
+div#main div.container div.selectForm p.h4 {
+    color: #319f8f;
+}
+div#main div.container div.selectForm form {
+    margin: 0 auto;
+    text-align: center;
+}
+div#main div.container div.selectForm form div.row {
+    padding: 5px 0;
+}
+div#main div.container div.selectForm form div.row label {
+
+}
+div#main div.container div.selectForm form div.row select {
+    padding-right: 50px;
+    border: 1px solid #5bada1;
+  background-image:
+    -webkit-linear-gradient(bottom left, transparent 50%, white 50%),
+    -webkit-linear-gradient(top left, white 50%, transparent 50%),
+    -webkit-linear-gradient(left, #5bada1, #5bada1);
+  background-image:
+    -o-linear-gradient(bottom left, transparent 50%, white 50%),
+    -o-linear-gradient(top left, white 50%, transparent 50%),
+    -o-linear-gradient(left, #5bada1, #5bada1);
+  background-image:
+    linear-gradient(to top right, transparent 50%, white 50%),
+    linear-gradient(to bottom right, white 50%, transparent 50%),
+    linear-gradient(to right, #5bada1, #5bada1);;
+  background-position:
+    calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px),
+    100% 0;
+  background-size:
+    5px 5px,
+    5px 5px,
+    2.5em 2.5em;
+  background-repeat: no-repeat;
+    background-color: aliceblue;
+    color: #25786c; 
+}
+div#main div.container div.selectForm form div.row select option {
+      
+}
+div#main div.container div.selectForm form div.row input {
+
+}
+div#main div.container div.selectForm form div.row input[type="text"] {
+
+}
+div#main div.container div.selectForm form div.row input[type="submit"] {
+    background: #5bada1;
+    color: #fff;
+    margin: 0 auto;
+}
+div#main div.container div.listForm {
+    padding: 10px;
+}
+div#main div.container div.listForm p {
+    margin: 20px;
+}
+div#main div.container div.listForm p.h4 {
+
+}
+div#main div.container div.listForm table {
+    margin: 0 auto 30px;
+}
+div#main div.container div.listForm table tr:first-child {
+    background: #5bada1;
+    color: #ffffff;
+}
+div#main div.container div.listForm table tr {
+    background: aliceblue;
+    color: #378277;
+    cursor: pointer;
+}
+div#main div.container div.listForm table tr.disabled {
+    /*color: #ff0000;*/
+}
+div#main div.container div.listForm table tr th {
+    text-align: center;
+}
+div#main div.container div.listForm table tr td {
+    text-align: center;
+}
+div#main div.container div.listForm table tr:oddchiled {
 
 }
 
@@ -163,12 +285,10 @@ div.login *{
 
 /*Footer*/
 div#footer {
+    margin-top: -8px;
 	text-align: center;
-    position: absolute;
-    right: 0;
-    left: 0;
+    height: 90px;
 }
-
 div#footer p {
 	line-height: 40px;
 	color: #fff;
@@ -229,3 +349,54 @@ div.dropdown-menu a {
     content: "";
     border: none;
 }
+
+
+
+/*dashboard_admin*/
+
+/*tabel*/
+
+/*table{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+table th{
+    background-color: #5bada1;
+}
+
+select.classic {
+    padding-right: 50px;
+    border: 1px solid #5bada1;
+  background-image:
+    linear-gradient(45deg, transparent 50%, white 50%),
+    linear-gradient(135deg, white 50%, transparent 50%),
+    linear-gradient(to right, #5bada1, #5bada1);
+  background-position:
+    calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px),
+    100% 0;
+  background-size:
+    5px 5px,
+    5px 5px,
+    2.5em 2.5em;
+  background-repeat: no-repeat;
+}
+*/
+/*select.classic:focus {
+  background-image:
+    linear-gradient(45deg, white 50%, transparent 50%),
+    linear-gradient(135deg, transparent 50%, white 50%),
+    linear-gradient(to right, gray, gray);
+  background-position:
+    calc(100% - 15px) 1em,
+    calc(100% - 20px) 1em,
+    100% 0;
+  background-size:
+    5px 5px,
+    5px 5px,
+    2.5em 2.5em;
+  background-repeat: no-repeat;
+  border-color: grey;
+  outline: 0;
+}*/
