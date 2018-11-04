@@ -92,6 +92,11 @@
 	transition: all 0.4s;
 }
 
+
+/*colors*/
+
+
+
 p , .h5 , .h6 {
 	line-height: 28px;
 }
@@ -179,7 +184,7 @@ div#main div.container div.selectForm form div.row {
     padding: 5px 0;
 }
 div#main div.container div.selectForm form div.row label {
-
+    text-align: center;
 }
 div#main div.container div.selectForm form div.row select {
     padding-right: 50px;
@@ -207,15 +212,22 @@ div#main div.container div.selectForm form div.row select {
   background-repeat: no-repeat;
     background-color: aliceblue;
     color: #25786c; 
+    line-height: 40px;
 }
 div#main div.container div.selectForm form div.row select option {
       
 }
 div#main div.container div.selectForm form div.row input {
-
+    border: 1px solid #5bada1;
+    background-color: aliceblue;
+    color: #25786c;
+    text-align: center;
 }
 div#main div.container div.selectForm form div.row input[type="text"] {
-
+    line-height: 40px;
+}
+div#main div.container div.selectForm form div.row input[type="password"] {
+    line-height: 40px;
 }
 div#main div.container div.selectForm form div.row input[type="submit"] {
     background: #5bada1;
@@ -283,6 +295,85 @@ div.login *{
 }
 
 
+/*dashBoard*/
+
+div.message{
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+div.message h4{
+
+}
+
+div.message p{
+
+}
+
+div.message button{
+    
+}
+
+div.talks{
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+div.talks h4{
+
+}
+
+div.talks p{
+
+}
+
+div.talks button{
+    
+}
+
+div.activations{
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+div.activations h4{
+
+}
+
+div.activations p{
+
+}
+
+div.activations button{
+    
+}
+
+div.bases{
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+div.bases h4{
+    color: #9863B4;
+}
+
+div.bases p{
+
+}
+
+div.bases button{
+    background-color: #9863B4;
+    color: #fff;
+}
+
+div.bases button:hover{
+    background-color: #8859A0;
+    color: #fff;
+}
+
+
+
+
 /*Footer*/
 div#footer {
     margin-top: -8px;
@@ -296,7 +387,7 @@ div#footer p {
 }
 
 /*Bootstrap*/
-.btn-primary {
+/*.btn-primary {
     color: #fff;
     background-color: #009688;
     border-color: #009688;
@@ -305,7 +396,8 @@ div#footer p {
 .btn-primary:hover {
     background-color: #06867a;
     border-color: #06867a;
-}
+}*/
+
 
 .nav-item {
     text-shadow: 0px 0px 10px #000;

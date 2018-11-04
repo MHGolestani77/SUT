@@ -56,7 +56,7 @@
 			          محمد حسین گلستانی
 			        	</a>
 			        	<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-			          		<a class="dropdown-item" href="#">اطلاعات کاربری</a>
+			          		<a class="dropdown-item" href="account.php">اطلاعات کاربری</a>
 			          		<a class="dropdown-item" href="#">تنظیمات</a>
 			          		<div class="dropdown-divider"></div>
 			          		<a class="dropdown-item" href="#">خروج</a>
