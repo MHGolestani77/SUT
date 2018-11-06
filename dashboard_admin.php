@@ -8,11 +8,20 @@
 				<div class="col-lg-4">
 					<div class="col">
 						<div class="message">
-							<h4 class="text-info">مرکز پیام</h4>
-							<p>آخرین اطلاعیه موجود در سامانه</p>
+							<div class="row">
+								<h4 class="text-info">مرکز پیام</h4>
+							</div>
+							<div class="row">
+								<p>آخرین اطلاعیه موجود در سامانه</p>
+							</div>
 							<hr>
-							<p>آخرین اطلاعیه موجود در سامانه</p>
-							<button class="btn btn-info">بیشتر</button>
+							<div class="row">
+								<p>آخرین اطلاعیه موجود در سامانه</p>
+							</div>
+							<hr>
+							<div class="row">
+								<button class="btn btn-info">بیشتر</button>
+							</div>
 						</div>
 
 						<div class="talks">

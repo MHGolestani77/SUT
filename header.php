@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<link rel="stylesheet" href="assets/css/styles.css?<?php echo $ref; ?>">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 <body>
 	<div id="header">
@@ -21,10 +22,10 @@
 		  	<div class="collapse navbar-collapse" id="navbarSupportedContent">
 		    	<ul class="navbar-nav ml-auto rtl">
 		      		<li class="nav-item text-right active">
-		        		<a class="nav-link" href="#">داشبورد<span class="sr-only">(current)</span></a>
+		        		<a class="nav-link" href="dashboard.php">داشبورد<span class="sr-only">(current)</span></a>
 		      		</li>
 		      		<li class="nav-item text-right">
-		        		<a class="nav-link" href="#">وضعیت اعضا</a>
+		        		<a class="nav-link" href="setposition.php">وضعیت اعضا</a>
 		      		</li>
 		      		<li class="nav-item text-right">
 		        		<a class="nav-link" href="#">ثبت فعالیت</a>

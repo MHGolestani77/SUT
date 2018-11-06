@@ -166,6 +166,7 @@ div#main div.logo img {
 div#main div.container {
     border-radius: 10px;
     background: #fff;
+    opacity: 0;
 }
 div#main div.container div.selectForm {
     padding: 10px;
@@ -297,23 +298,22 @@ div.login *{
 
 /*dashBoard*/
 
-div.message{
+div#main div.container div.row div.message {
     padding-top: 20px;
     padding-bottom: 15px;
 }
-
-div.message h4{
-
-}
-
-div.message p{
+div#main div.container div.row div.message div.row {
 
 }
+div#main div.container div.row div.message div.row h4 {
 
-div.message button{
+}
+div#main div.container div.row div.message div.row p {
+    margin: 0;
+}
+div#main div.container div.row div.message div.row button {
     
 }
-
 div.talks{
     padding-top: 20px;
     padding-bottom: 15px;
@@ -372,7 +372,40 @@ div.bases button:hover{
 }
 
 
+/*Account*/
 
+div#main div#account {
+
+}
+div#main div#account div.container {
+
+}
+div#main div#account div.container div.row {
+
+}
+div#main div#account div.container div.row div {
+
+}
+div#main div#account div.container div.row div ul {
+    padding: 15px 0;
+}
+div#main div#account div.container div.row div ul li {
+    text-align: center;
+    list-style: none;
+    padding: 10px 0;
+}
+div#main div#account div.container div.row div ul li a {
+    color: #000;
+    text-decoration: none;
+}
+div#main div#account div.container div.row div ul li a i {
+    color: #319f8f;
+    font-size: 25px;
+    padding: 10px;
+}
+div#main div#account div.container div.row div ul li a p {
+    text-align: center;
+}
 
 /*Footer*/
 div#footer {
