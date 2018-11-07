@@ -1,5 +1,9 @@
 <?php 
 	include "header.php";
+	$type = $_GET['type'];
+	$personal = $type == "personal"?"display:block;":"display:none;";
+	$account = $type == "account"?"display:block;":"display:none;";
+	$contact = $type == "contact"?"display:block;":"display:none;";
  ?>
 <div id="main">
 	<div class="logo">
@@ -13,19 +17,19 @@
 				<div class="col-md-4">
 					<ul>
 						<li>
-							<a href="">
+							<a href="?type=personal">
 								<i class="fas fa-user"></i>
 								<p>اطلاعات شناسایی</p>
 							</a>
 						</li>
 						<li>
-							<a href="">
+							<a href="?type=account">
 								<i class="fas fa-key"></i>
 								<p>اطلاعات کاربری</p>
 							</a>
 						</li>
 						<li>
-							<a href="">
+							<a href="?type=contact">
 								<i class="fas fa-phone"></i>
 								<p>اطلاعات تماس</p>
 							</a>
@@ -33,7 +37,7 @@
 					</ul>
 				</div>
 				<div class="col-md-8">
-					<div class="selectForm">
+					<div class="selectForm" style="<?php echo $personal; ?>">
 						<p class="h4">اطلاعات شناسایی</p>
 						<form action="" class="col-lg-6 col-md-8">
 							<div class="row">
@@ -60,8 +64,8 @@
 								<input type="submit" class="btn col-md-3" value="تایید" name="submitPersonData">
 							</div>
 						</form>
-					</div><!-- 
-					<div class="selectForm">
+					</div>
+					<div class="selectForm" style="<?php echo $account; ?>">
 						<p class="h4">اطلاعات کاربری</p>
 						<form action="" class="col-lg-6 col-md-8">
 							<div class="row">
@@ -81,7 +85,7 @@
 							</div>
 						</form>
 					</div>
-					<div class="selectForm">
+					<div class="selectForm" style="<?php echo $contact; ?>">
 						<p class="h4">اطلاعات تماس</p>
 						<form action="" class="col-lg-6 col-md-8">
 							<div class="row">
@@ -96,7 +100,7 @@
 								<input type="submit" class="btn col-md-3" value="تایید" name="submitCallData">
 							</div>
 						</form>
-					</div> -->
+					</div>
 				</div>
 			</div>
 		</div>
